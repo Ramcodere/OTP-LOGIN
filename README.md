@@ -1,30 +1,27 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the React + TypeScript + Vite repository!
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository provides a setup for developing React applications using TypeScript with Vite, a modern build tool.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Vite**: Fast and lightweight development server with native ES module support.
+- **React**: Declarative and efficient JavaScript library for building user interfaces.
+- **TypeScript**: Typed superset of JavaScript that compiles to plain JavaScript.
+- **Development Environment**: Includes tools for fast builds and hot module replacement (HMR).
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To get started with this project:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository**: Use Git to clone this repository to your local machine.
+2. **Install dependencies**: Use npm or yarn to install project dependencies.
+3. **Start development server**: Run a command to start the development server with Vite.
+
+## Project Structure
+
+- **src/**: Directory for main application code.
+- **public/**: Directory for static assets and HTML entry point.
